@@ -52,14 +52,14 @@ export function HeroSection() {
       </div>
 
       <div className="relative flex-shrink-0 z-10">
-        <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-cyan-500/20 via-purple-600/10 to-pink-500/10 blur-xl" />
-        <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+        <div className="absolute -inset-5 rounded-2xl bg-gradient-to-br from-cyan-500/20 via-purple-600/10 to-pink-500/10 blur-xl" />
+        <div className="relative w-80 h-80 md:w-[24rem] md:h-[24rem] rounded-[1.8rem] overflow-hidden border border-white/10 shadow-2xl shadow-cyan-500/10">
           <Image
             src="/myphoto.png"
             alt="Yousof Hossain Shouv"
             fill
-            sizes="(max-width:768px) 240px, 320px"
-            className="object-cover"
+            sizes="(max-width:768px) 320px, 384px"
+            className="object-cover scale-[1.08]"
             priority
           />
         </div>
