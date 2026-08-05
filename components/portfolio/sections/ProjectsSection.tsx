@@ -1,13 +1,21 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { photos } from "@/components/portfolio/data/portfolio";
 import { SectionHeading } from "@/components/portfolio/SectionHeading";
 
 export function ProjectsSection() {
   const [activePhoto, setActivePhoto] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActivePhoto((current) => (current + 1) % photos.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section id="projects" className="py-24 px-6 bg-white/[0.02] border-y border-white/5">
