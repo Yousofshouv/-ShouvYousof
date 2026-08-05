@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --font-heading: var(--font-space-grotesk), system-ui, sans-serif;
+  --font-body:    var(--font-inter), system-ui, sans-serif;
+  --cyan:   #22d3ee;
+  --purple: #a855f7;
+  --pink:   #ec4899;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.text-cyan { background: linear-gradient(135deg,#22d3ee,#3b82f6); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+.text-purple { background: linear-gradient(135deg,#a855f7,#ec4899); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+
+.section-line {
+  width: 52px; height: 3px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg,var(--cyan),var(--purple));
+  margin: 0.6rem auto 0;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: linear-gradient(var(--cyan),var(--purple)); border-radius: 9999px; }
