@@ -27,7 +27,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 
 
-visit the portfolio  : shouvyousof.vercel.app
+visit the portfolio  : https://shouvyousof.vercel.app
 
 
 
