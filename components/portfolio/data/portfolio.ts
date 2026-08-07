@@ -46,6 +46,14 @@ export const certs = [
     issuer: "NASA",
     badge: "🚀",
   },
+   {
+    src: "/c2.jpg",
+    title: "IT Essentials cirtificate",
+    sub: "Cisco Networking Academy",
+    issuer: "CISCO",
+    badge: "🌐",
+  },
+  
 ] as const;
 
 export const heroStats = [

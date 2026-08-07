@@ -7,7 +7,9 @@ export function ContactSection() {
           Let&apos;s <span className="text-cyan">Connect</span>
         </h2>
         <div className="section-line mb-6" />
-        <p className="text-slate-400 mb-12">Open for freelance, collaboration, or just a great conversation.</p>
+        <p className="text-slate-400 mb-12">Open for Big Project work, collaboration, or just a great conversation.</p>
+           <p className="text-slate-400 mb-12">Feel free to start a conversation! Great things come out of great conversations. You are always welcome.</p>
+
 
         <div className="grid sm:grid-cols-2 gap-5 mb-10">
           <a
@@ -35,6 +37,20 @@ export function ContactSection() {
               <p className="text-white font-semibold">+880 1897-794846</p>
             </div>
           </a>
+
+ <a
+            href="https://www.linkedin.com/in/yousof-hossain-shouv-3bb693362/?locale=bn"
+            className="glass border border-white/8 rounded-2xl p-6 flex items-center gap-4 hover:border-green-500/30 hover:bg-white/[0.06] transition-all duration-200"
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-emerald-600 flex items-center justify-center text-2xl flex-shrink-0">
+              💼
+            </div>
+            <div className="text-left">
+              <p className="text-[10px] text-slate-500 uppercase font-bold tracking-wider mb-1"></p>
+              <p className="text-white font-semibold">Linked In</p>
+            </div>
+          </a>
+
         </div>
 
         <a

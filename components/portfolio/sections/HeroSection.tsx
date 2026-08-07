@@ -22,8 +22,8 @@ export function HeroSection() {
         </h1>
 
         <p className="text-slate-400 text-lg leading-relaxed max-w-xl mb-8">
-          Full Stack Developer building high-performance web apps, desktop GUI tools (Java Swing), and award-winning projects accepted by{" "}
-          <span className="text-white font-semibold">NASA</span>.
+          Full Stack Developer building high-performance web apps, desktop GUI tools (Java), and IMPACTFUL projects accepted by{" "}
+          <span className="text-white font-semibold">NASA INTERNATIONAL SPACE APPS CHALLENGE </span>.
         </p>
 
         <div className="flex flex-wrap gap-4">
@@ -51,19 +51,34 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="relative flex-shrink-0 z-10">
-        <div className="absolute -inset-5 rounded-2xl bg-gradient-to-br from-cyan-500/20 via-purple-600/10 to-pink-500/10 blur-xl" />
-        <div className="relative w-80 h-80 md:w-[24rem] md:h-[24rem] rounded-[1.8rem] overflow-hidden border border-white/10 shadow-2xl shadow-cyan-500/10">
+      {/* <div className="relative flex-shrink-0 z-10">
+        <div  className="absolute -inset-5 rounded-2xl bg-gradient-to-br from-cyan-500/20 via-purple-600/10 to-pink-500/10 blur-xl" />
+        <div className="relative w-80 h-80 md:w-[24rem] md:h-[24rem] rounded-[1.8rem] overflow-hidden border border-white/10 shadow-2xl shadow-cyan-500/10" >
           <Image
             src="/myphoto.png"
             alt="Yousof Hossain Shouv"
             fill
             sizes="(max-width:768px) 320px, 384px"
             className="object-cover scale-[1.08]"
-            priority
-          />
+            priority />
         </div>
-      </div>
+      </div> */}
+
+     <div className="relative flex-shrink-0 z-10">
+  <div className="absolute -inset-5 rounded-2xl bg-gradient-to-br from-cyan-500/20 via-purple-600/10 to-pink-500/10 blur-xl" />
+  <div className="relative w-72 h-96 md:w-80 md:h-[28rem] rounded-[1.8rem] overflow-hidden border border-white/10 shadow-2xl shadow-cyan-500/10">
+    <Image
+      src="/myphoto.png"
+      alt="Yousof Hossain Shouv"
+      fill
+      sizes="(max-width:768px) 288px, 320px"
+      className="object-cover object-top"
+      priority
+    />
+  </div>
+</div>
     </section>
   );
 }
+
+ //  className="relative flex-shrink-0 z-10"

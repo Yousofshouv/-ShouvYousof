@@ -16,6 +16,9 @@ export function AboutSection() {
             <p>
               I work across the full stack — React, Next.js, Node.js on the web, and Java Swing for desktop GUI apps, with C++ and Java for systems programming.
             </p>
+              <p>
+               I have keen interest in <span className="text-white font-semibold">AI, Machine Learning, and Deep Learning</span>, and I am actively exploring these fields to enhance my skills and contribute to innovative projects.
+            </p>
             <p>
               My project <span className="text-white font-semibold">StarSentinel</span> was accepted into the{" "}
               <span className="text-orange-400 font-semibold">NASA International Space Apps Challenge 2025</span>.
